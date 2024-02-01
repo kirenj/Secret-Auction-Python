@@ -31,9 +31,10 @@ while bid_continue == True:
     bid_continue = True
     clear()     
   else:
+    clear()
     winner_check()
     bid_continue = False
-    print(auction_bids)
+    #print(auction_bids)
 
   
   
